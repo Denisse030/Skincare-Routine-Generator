@@ -1,0 +1,384 @@
+{
+    "products": [
+        {
+            "name": "Centella Light Cleansing Oil",
+            "category": "oil_cleanser",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "normal", "sensitive"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Citrus Aurantium Bergamia (Bergamot) Fruit Oil, Helianthus Annuus (Sunflower) Seed Oil, Olea Europaea (Olive) Fruit Oil, Simmondsia Chinensis (Jojoba) Seed Oil"
+        },
+        {
+            "name": "Centella Ampoule Foam",
+            "category": "cleanser",
+            "brand_name": "Skin 1004",
+            "skin_type": ["normal", "sensitive"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Citric Acid, Sodium Hyaluronate"
+        },
+        {
+            "name": "Poremizing Deep Cleansing Foam",
+            "category": "cleanser",
+            "brand_name": "Skin 1004",
+            "skin_type": ["oily", "sensitive", "combination"],
+            "skin_concern": ["calming", "pore_tightning"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Mineral Salts, Kaolin (CI 77004), Papain, Pyrus Malus (Apple) Fruit Extract"
+        },
+        {
+            "name": "Tea-Trica BHA Foam",
+            "category": "cleanser",
+            "brand_name": "Skin 1004",
+            "skin_type": ["acne_prone", "oily", "sensitive"],
+            "skin_concern": ["calming", "acne"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Melaleuca Alternifolia (Tea Tree) Leaf Water, Salicylic Acid, Pinus Palustris Leaf Extract, Chamaecyparis Obtusa Water"
+        },
+        {
+            "name": "Tone Brightening Cleansing Gel Foam",
+            "category": "cleanser",
+            "brand_name": "Skin 1004",
+            "skin_type": ["normal", "sensitive", "combination"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": ["vitamin c"],
+            "key_ingredients": "Centella Asiatica Extract, Niacinamide, 3-O-Ethyl Ascorbic Acid, Citric Acid"
+        },
+        {
+            "name": "Centella Toning Toner",
+            "category": "toner",
+            "brand_name": "Skin 1004",
+            "skin_type": ["normal", "sensitive"],
+            "skin_concern": ["calming"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Gluconolactone, Betain"
+        },
+        {
+            "name": "Poremizing Clear Toner",
+            "category": "toner",
+            "brand_name": "Skin 1004",
+            "skin_type": ["oily", "sensitive", "combination"],
+            "skin_concern": ["calming", "pore_tightning"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Mineral Salts, Salix Alba (Willow) Bark Extract, Citric Acid, Capryloyl Salicylic Acid, Gluconolactone, Salicylic Acid, Citric Acid"
+        },
+        {
+            "name": "Tea-Trica Purifying Toner",
+            "category": "toner",
+            "brand_name": "Skin 1004",
+            "skin_type": ["acne_prone", "oily", "sensitive"],
+            "skin_concern": ["calming", "acne"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Melaleuca Alternifolia (Tea Tree) Leaf Water, Pinus Palustris Leaf Extract, Chamaecyparis Obtusa Water"
+        },
+        {
+            "name": "Tone Brightening Boosting Toner",
+            "category": "toner",
+            "brand_name": "Skin 1004",
+            "skin_type": ["normal", "combination", "sensitive"],
+            "skin_concern": ["calming"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Niacinamide, 3-O-Ethyl Ascorbic Acid, Madecassoside"
+        },
+        {
+            "name": "Probio-Cica Essence Toner",
+            "category": "toner",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "combination", "normal"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Lactobacillus/Centella Asiatica Extract Ferment Filtrate, Centella Asiatica Extract, Madecassic Acid, Asiaticoside, Asiatic Acid, Hyaluronic Acid"
+        },
+        {
+            "name": "Hyalu-Cica Brightening Toner",
+            "category": "toner",
+            "brand_name": "Skin 1004",
+            "skin_type": ["sensitive", "dry", "normal"],
+            "skin_concern": ["calming"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Leaf Water, Hyaluronic Acid, Ceramide NP, Citric Acid, Capryloyl Salicylic Acid"
+        },
+        {
+            "name": "Centella Quick Calming Pad",
+            "category": "toner_pads",
+            "brand_name": "Skin 1004",
+            "skin_type": ["sensitive", "combination", "normal"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Panthenol, Sodium Hyaluronate"
+        },
+        {
+            "name": "Centella Ampoule",
+            "category": "ampoule",
+            "brand_name": "Skin 1004",
+            "skin_type": ["sensitive", "normal"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract"
+        },
+        {
+            "name": "Hyalu-Cica First Ampoule",
+            "category": "ampoule",
+            "brand_name": "Skin 1004",
+            "skin_type": ["sensitive", "dry", "normal", "combination"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Hyaluronic Acid, Betula Platyphylla Japonica Juice, Hedera Helix (Ivy) Leaf/Stem Extract"
+        },
+        {
+            "name": "Poremizing Fresh Ampoule",
+            "category": "ampoule",
+            "brand_name": "Skin 1004",
+            "skin_type": ["oily", "combination", "sensitive"],
+            "skin_concern": ["calming", "pore_tightning"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Mineral Salts, Aloe Barbadensis Leaf Extract"
+        },
+        {
+            "name": "Tea-Trica Relief Ampoule",
+            "category": "ampoule",
+            "brand_name": "Skin 1004",
+            "skin_type": ["acne_prone", "oily", "sensitive"],
+            "skin_concern": ["calming", "acne"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Melaleuca Alternifolia (Tea Tree) Leaf Water, Pinus Palustris Leaf Extract, Oenothera Biennis (Evening Primrose) Flower Extract, Chamaecyparis Obtusa Water"
+        },
+        {
+            "name": "Tone Brightening Capsule Ampoule",
+            "category": "ampoule",
+            "brand_name": "Skin 1004",
+            "skin_type": ["normal", "sensitive", "combination"],
+            "skin_concern": ["calming"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Niacinamide, Tranexamic Acid, 3-O-Ethyl Ascorbic Acid, Madecassoside"
+        },
+        {
+            "name": "Probio-Cica Intensive Ampoule",
+            "category": "ampoule",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "normal", "combination"],
+            "skin_concern": ["calming", "pore_tightning", "acne"],
+            "active_ingredients": [],
+            "key_ingredients": "Lactobacillus/Centella Asiatica Extract Ferment Filtrate, Centella Asiatica Extract, Madecassic Acid, Asiaticoside, Asiatic Acid, Ceramide NP"
+        },
+       {
+            "name": "Hyalu-Cica Blue Serum",
+            "category": "serum",
+            "brand_name": "Skin 1004",
+            "skin_type": ["sensitive", "normal", "dry"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Leaf Water, Hyaluronic Acid, Ceramide NP, Hedera Helix (Ivy) Leaf/Stem Extract"
+        },
+        {
+            "name": "Centella Cream",
+            "category": "moisturizer",
+            "brand_name": "Skin 1004",
+            "skin_type": ["normal", "sensitive"],
+            "skin_concern": ["calming", "hydrating", "acne"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Panthenol, TECA (Madecassoside, Asiaticoside, Madecassic Acid, Asiatic Acid)"
+        },
+        {
+            "name": "Centella Soothing Cream",
+            "category": "moisturizer",
+            "brand_name": "Skin 1004",
+            "skin_type": ["normal", "sensitive"],
+            "skin_concern": ["calming", "hydrating","acne"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Trehalose, Sodium Hyaluronate, Ceramide NP, Cholesterol"
+        },
+        {
+            "name": "Hyalu-Cica Moisture Cream",
+            "category": "moisturizer",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "sensitive", "normal"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Hyaluronic Acid, Hydrolyzed Collagen"
+        },
+        {
+            "name": "Poremizing Light Gel Cream",
+            "category": "moisturizer",
+            "brand_name": "Skin 1004",
+            "skin_type": ["oily", "normal", "combination"],
+            "skin_concern": ["calming", "hydrating", "pore_tightning"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Mineral Salts, Aloe Barbadensis Leaf Extract, Niacinamide, Adenosine, Hamamelis Virginiana (Witch Hazel) Leaf Water, Chamaecyparis Obtusa Water"
+        },
+        {
+            "name": "Tone Brightening Capsule Cream",
+            "category": "moisturizer",
+            "brand_name": "Skin 1004",
+            "skin_type": ["normal", "sensitive", "combination", "dry"],
+            "skin_concern": ["calming"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Niacinamide, Tranexamic Acid, Madecassoside, Panthenol, Bisabolol"
+        },
+        {
+            "name": "Tea-Trica B5 Cream",
+            "category": "moisturizer",
+            "brand_name": "Skin 1004",
+            "skin_type": ["acne_prone", "oily", "combination", "sensitive"],
+            "skin_concern": ["calming", "acne", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "5% Panthenol (Vitamin B5), Tea Tree Extract & Tea Tree Oil, Ceramide NP, Cica Exosome (Centella Asiatica Derived), Centella Asiatica Extract"
+        },
+        {
+            "name": "Probio-Cica Enrich Cream",
+            "category": "moisturizer",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "combination", "normal"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Lactobacillus/Centella Asiatica Extract Ferment Filtrate, Centella Asiatica Extract, Madecassic Acid, Asiaticoside, Asiatic Acid, Phytosterols"
+        },
+        {
+            "name": "Hyalu-Cica Sleeping Pack",
+            "category": "sleeping_mask",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "sensitive", "normal"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Leaf Water, Hyaluronic Acid, Melatonin, Ceramide NP"
+        },
+        {
+            "name": "Probio-Cica Bakuchiol Eye Cream",
+            "category": "eye_cream",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "sensitive", "normal"],
+            "skin_concern": ["calming", "hydrating", "acne"],
+            "active_ingredients": [],
+            "key_ingredients": "Lactobacillus/Centella Asiatica Extract Ferment Filtrate, Centella Asiatica Extract, Bakuchiol, Madecassic Acid, Asiaticoside, Asiatic Acid, Ceramide NP"
+        },
+        {
+            "name": "Air-fit Suncream Light",
+            "category": "sunscreen",
+            "brand_name": "Skin 1004",
+            "skin_type": ["oily", "sensitive", "combination"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": ["SPF50"],
+            "key_ingredients": "Zinc Oxide, Niacinamide, Centella Asiatica Extract (and its compounds: Madecassic Acid, Asiaticoside, Asiatic Acid), Houttuynia Cordata Extract, Portulaca Oleracea Extract, and Adenosine."
+        },
+        {
+            "name": "Hyalu-Cica Water-Fit Sun Serum",
+            "category": "sunscreen",
+            "brand_name": "Skin 1004",
+            "skin_type": ["oily", "sensitive", "combination", "acne_prone", "dry"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": ["SPF50"],
+            "key_ingredients": "Niacinamide, multiple UV filters, Centella Asiatica Extract, Hyaluronic Acid (and its derivatives), Adenosine, and Tocopherol, supported by a blend of antioxidants and moisturizing glycols."
+        },
+        {
+            "name": "Tea-Trica Spot Cream",
+            "category": "treatment",
+            "brand_name": "Skin 1004",
+            "skin_type": ["acne", "oily", "sensitive"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Melaleuca Alternifolia (Tea Tree) Leaf Water, TECA(Asiaticoside, Asiatic Acid, Madecassic Acid), Pinus Palustris Leaf Extract, Chamaecyparis Obtusa Water, Calamine"
+        },
+        {
+            "name": "Retinol 0.2 Boosting Shot Ampoule",
+            "category": "treatment",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "normal", "sensitive"],
+            "skin_concern": ["Elasticity Boost, Smoother Texture, Anti-Wrinkle"],
+            "active_ingredients": ["retinol"],
+            "key_ingredients": "0.2% Retinol, Retinal, Squalane, Madagascar Centella Asiatica Extract, Panthenol, Hydrolyzed Sponge(Spicules)"
+        },
+        {
+            "name": "Matrixyl 10 Boosting Shot Ampoule",
+            "category": "treatment",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "normal"],
+            "skin_concern": ["Deep Hydration, Firming, Elasticity Boost, Volume Care"],
+            "active_ingredients": ["matrixyl"],
+            "key_ingredients": "10% Matrixyl 3000®, Madagascar Centella Asiatica Extract, Panthenol, Hyaluronic Acid, Volufiline 5%, Hydrolyzed Sponge(Spicules)",
+            "warning": "Use if you are between the ages of 20 to 49 year's old"
+        },
+        {
+            "name": "Niacinamide 10 Boosting Shot Ampoule",
+            "category": "treatment",
+            "brand_name": "Skin 1004",
+            "skin_type": ["oily", "combination", "sensitive"],
+            "skin_concern": ["Pore Refining, Brightening, Radiance Boost, Skin Smoothing"],
+            "active_ingredients": ["niacinamide"],
+            "key_ingredients": "10% Niacinamide, Madagascar Centella Asiatica Extract, Panthenol, Tranexamic Acid, Ascorbyl Glucoside, Hydrolyzed Sponge(Spicules)",
+            "warning": "Use if you are between the ages of 20 to 49 year's old"
+        },
+        {
+            "name": "Centella Watergel Sheet Ampoule Mask",
+            "category": "facemask",
+            "brand_name": "Skin 1004",
+            "skin_type": ["normal", "combination", "sensitive"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Glycerin, Chamomilla Recutita (Matricaria) Flower Extract"
+        },
+        {
+            "name": "Probio-Cica Nourishing Mask",
+            "category": "facemask",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "normal", "combination", "sensitive"],
+            "skin_concern": ["hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Fermented Centella Asiatica Extract, Ceramide, Multi-Peptides"
+        },
+        {
+            "name": "Tone Brightening Glow Mask",
+            "category": "facemask",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "normal", "combination", "sensitive"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Niacinamide, Tranexamic Acid"
+        },
+        {
+            "name": "Tea-Trica Relaxing Mask",
+            "category": "facemask",
+            "brand_name": "Skin 1004",
+            "skin_type": ["acne_prone", "sensitive", "oily"],
+            "skin_concern": ["calming", "pore_tightning"],
+            "active_ingredients": [],
+            "key_ingredients": "Tea Tree Extract, Centella Asiatica Extract, Salicylic Acid"
+        },
+        {
+            "name": "Hyalu-Cica Hydrating Mask",
+            "category": "facemask",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "normal", "combination", "sensitive"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Hyaluronic Acid Complex, Ceramide"
+        },
+        {
+            "name": "Poremizing Clarifying Mask",
+            "category": "facemask",
+            "brand_name": "Skin 1004",
+            "skin_type": ["dry", "normal", "combination", "sensitive"],
+            "skin_concern": ["calming", "hydrating", "pore_tightning"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Himalayan Pink Salt, Succinic Acid"
+        },
+        {
+            "name": "Poremizing Quick Clay Stick Mask",
+            "category": "facemask",
+            "brand_name": "Skin 1004",
+            "skin_type": ["oily", "normal", "combination"],
+            "skin_concern": ["calming", "pore_tightning"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Kaolin, Bentonite, Illite, Montmorillonite, Aloe Barbadensis Leaf Extract"
+        },
+        {
+            "name": "Hyalu-Cica Cloudy Mist",
+            "category": "toner_mist",
+            "brand_name": "Skin 1004",
+            "skin_type": ["sensitive", "normal", "dry"],
+            "skin_concern": ["calming", "hydrating"],
+            "active_ingredients": [],
+            "key_ingredients": "Centella Asiatica Extract, Hyaluronic Acid, Camellia Sinensis Leaf Water, Xylitol, Ceramide NP"
+        }
+    ]
+}
