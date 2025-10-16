@@ -3,4 +3,4 @@
 ## Project Overview
 
 This python application generates your own personalized skincare routine using data exclusively from Skin 1004 products.
-You are able to select your **skin type** and **skin concerns**, which the program will then curate your completed AM and PM routine, it will also add usage notes for facemasks and treatments, and will also automatically include warnings from the product data.
+You are able to select your **skin type** and **skin concerns**, which the program will then curate your completed AM and PM routine, it will also add usage notes for facemasks and treatments, and will also automatically include warnings from the product data. The user will also have the option to view the key ingredients of each product if they choose.
