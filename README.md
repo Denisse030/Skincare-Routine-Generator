@@ -1,4 +1,3 @@
----
 # **Skincare Routine Generator (Skin 1004 Edition)**
 
 ## Project Overview
