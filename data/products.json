@@ -26,13 +26,14 @@
             "skin_concern": ["improving", "pore_tightning"],
             "active_ingredients": [],
             "key_ingredients": "Centella Asiatica Extract, Mineral Salts, Kaolin (CI 77004), Papain, Pyrus Malus (Apple) Fruit Extract"
+            
         },
         {
             "name": "Tea-Trica BHA Foam",
             "category": "cleanser",
             "brand_name": "Skin 1004",
             "skin_type": ["oily", "sensitive"],
-            "skin_concern": ["calming", "soothing", "acne_prone"],
+            "skin_concern": ["calming", "soothing", "acne"],
             "active_ingredients": [],
             "key_ingredients": "Centella Asiatica Extract, Melaleuca Alternifolia (Tea Tree) Leaf Water, Salicylic Acid, Pinus Palustris Leaf Extract, Chamaecyparis Obtusa Water"
         },
@@ -68,7 +69,7 @@
             "category": "toner",
             "brand_name": "Skin 1004",
             "skin_type": ["oily", "sensitive"],
-            "skin_concern": ["calming", "soothing", "acne_prone"],
+            "skin_concern": ["calming", "soothing", "acne"],
             "active_ingredients": [],
             "key_ingredients": "Centella Asiatica Extract, Melaleuca Alternifolia (Tea Tree) Leaf Water, Pinus Palustris Leaf Extract, Chamaecyparis Obtusa Water"
         },
@@ -95,7 +96,7 @@
             "category": "toner",
             "brand_name": "Skin 1004",
             "skin_type": ["sensitive", "dry", "combination"],
-            "skin_concern": ["hydrating", "moisturizing"],
+            "skin_concern": ["hydrating", "moisturizing", "hydrating"],
             "active_ingredients": [],
             "key_ingredients": "Centella Asiatica Leaf Water, Hyaluronic Acid, Ceramide NP, Citric Acid, Capryloyl Salicylic Acid"
         },
@@ -113,7 +114,7 @@
             "category": "ampoule",
             "brand_name": "Skin 1004",
             "skin_type": ["dry", "combination", "sensitive"],
-            "skin_concern": ["calming", "soothing"],
+            "skin_concern": ["calming", "soothing", "hydrating"],
             "active_ingredients": [],
             "key_ingredients": "Centella Asiatica Extract"
         },
@@ -140,7 +141,7 @@
             "category": "ampoule",
             "brand_name": "Skin 1004",
             "skin_type": ["oily", "sensitive"],
-            "skin_concern": ["calming", "soothing", "acne_prone"],
+            "skin_concern": ["calming", "soothing", "acne"],
             "active_ingredients": [],
             "key_ingredients": "Centella Asiatica Extract, Melaleuca Alternifolia (Tea Tree) Leaf Water, Pinus Palustris Leaf Extract, Oenothera Biennis (Evening Primrose) Flower Extract, Chamaecyparis Obtusa Water"
         },
@@ -221,7 +222,7 @@
             "category": "moisturizer",
             "brand_name": "Skin 1004",
             "skin_type": ["oily", "sensitive"],
-            "skin_concern": ["calming", "soothing", "acne_prone"],
+            "skin_concern": ["calming", "soothing", "acne"],
             "active_ingredients": [],
             "key_ingredients": "5% Panthenol (Vitamin B5), Tea Tree Extract & Tea Tree Oil, Ceramide NP, Cica Exosome (Centella Asiatica Derived), Centella Asiatica Extract"
         },
@@ -265,7 +266,7 @@
             "name": "Hyalu-Cica Water-Fit Sun Serum",
             "category": "sunscreen",
             "brand_name": "Skin 1004",
-            "skin_type": ["oily", "sensitive", "combination", "acne_prone", "dry"],
+            "skin_type": ["oily", "sensitive", "combination", "dry"],
             "skin_concern": ["moisturizing", "hydrating"],
             "active_ingredients": ["SPF50"],
             "key_ingredients": "Niacinamide, multiple UV filters, Centella Asiatica Extract, Hyaluronic Acid (and its derivatives), Adenosine, and Tocopherol, supported by a blend of antioxidants and moisturizing glycols."
@@ -275,7 +276,7 @@
             "category": "treatment",
             "brand_name": "Skin 1004",
             "skin_type": ["combination", "oily", "sensitive"],
-            "skin_concern": ["calming", "soothing", "acne_prone"],
+            "skin_concern": ["calming", "soothing", "acne"],
             "active_ingredients": [],
             "key_ingredients": "Centella Asiatica Extract, Melaleuca Alternifolia (Tea Tree) Leaf Water, TECA(Asiaticoside, Asiatic Acid, Madecassic Acid), Pinus Palustris Leaf Extract, Chamaecyparis Obtusa Water, Calamine"
         },
@@ -286,7 +287,8 @@
             "skin_type": ["dry", "normal", "sensitive"],
             "skin_concern": ["improving", "pore_tightning", "glowing", "hydrating", "brightning"],
             "active_ingredients": ["retinol"],
-            "key_ingredients": "0.2% Retinol, Retinal, Squalane, Madagascar Centella Asiatica Extract, Panthenol, Hydrolyzed Sponge(Spicules)"
+            "key_ingredients": "0.2% Retinol, Retinal, Squalane, Madagascar Centella Asiatica Extract, Panthenol, Hydrolyzed Sponge(Spicules)",
+            "warning": "Introduce slowly. Start with 1-2 times a week, and only apply it on nights when you are not using other potentially irritating products."
         },
         {
             "name": "Matrixyl 10 Boosting Shot Ampoule",
@@ -296,7 +298,7 @@
             "skin_concern": ["hydrating", "moisturizing", "improving", "glowing", "soothing"],
             "active_ingredients": ["matrixyl"],
             "key_ingredients": "10% Matrixyl 3000®, Madagascar Centella Asiatica Extract, Panthenol, Hyaluronic Acid, Volufiline 5%, Hydrolyzed Sponge(Spicules)",
-            "warning": "Use if you are between the ages of 20 to 49 year's old"
+            "warning": "Use if you are between the ages of 20 to 49 year's old. Alternate between ampoules, or if your skin tolerates it use it after your first ampoule."
         },
         {
             "name": "Niacinamide 10 Boosting Shot Ampoule",
@@ -306,7 +308,7 @@
             "skin_concern": ["brightning", "pore_tightning", "glowing", "improving", "hydrating"],
             "active_ingredients": ["niacinamide"],
             "key_ingredients": "10% Niacinamide, Madagascar Centella Asiatica Extract, Panthenol, Tranexamic Acid, Ascorbyl Glucoside, Hydrolyzed Sponge(Spicules)",
-            "warning": "Use if you are between the ages of 20 to 49 year's old"
+            "warning": "Use if you are between the ages of 20 to 49 year's old. Alternate between ampoules, or if your skin tolerates it use it after your first ampoule."
         },
         {
             "name": "Centella Watergel Sheet Ampoule Mask",
@@ -339,8 +341,8 @@
             "name": "Tea-Trica Relaxing Mask",
             "category": "facemask",
             "brand_name": "Skin 1004",
-            "skin_type": ["acne_prone", "sensitive", "oily"],
-            "skin_concern": ["calming", "soothing", "acne_prone"],
+            "skin_type": ["sensitive", "oily"],
+            "skin_concern": ["calming", "soothing", "acne"],
             "active_ingredients": [],
             "key_ingredients": "Tea Tree Extract, Centella Asiatica Extract, Salicylic Acid"
         },

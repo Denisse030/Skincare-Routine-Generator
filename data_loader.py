@@ -1,5 +1,5 @@
 import json
-from skincare.classes import Product
+from classes import Product
 
 def load_products(path: str):
     try:
@@ -23,14 +23,14 @@ def load_products(path: str):
             
             products.append(
                 Product(
-                    name = item["name"],
-                    category = item["category"],
-                    brand_name = item["brand_name"],
-                    skin_type = item["skin_type"],
-                    skin_concern = item["skin_concern"],
-                    active_ingredients = item.get["active_ingredients", []],
-                    key_ingredients = key,
-                    warning = item.get("warning")
+                    name=item["name"],
+                    category=item["category"],
+                    brand_name=item["brand_name"],
+                    skin_type=item["skin_type"],
+                    skin_concern=item["skin_concern"],
+                    active_ingredients=item.get("active_ingredients", []),
+                    key_ingredients=key,
+                    warning=item.get("warning")
                 )
             )
 
