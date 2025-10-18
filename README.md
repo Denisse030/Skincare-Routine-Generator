@@ -26,6 +26,7 @@ Skincare-Routine-Generator/
 ├── rules.py           # Contains logic for matching and routine generation
 ├── main.py            # Main program entry point (for user interaction)
 ├── test_classes.py    # Unit tests for verifying the apps functionality
+├── __init__.py        # Marks the directory as a Python package, enabling module imports.
 └── data/
     └── products.json  # Product dataset (Skin 1004 products)
 ```
