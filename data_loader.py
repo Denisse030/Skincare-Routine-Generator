@@ -2,6 +2,7 @@ import json
 from classes import Product
 
 def load_products(path: str):
+    """This just loads the product data from the json file and returns a list of Product objects and metadata."""
     try:
         with open(path, 'r', encoding='utf-8') as file:
             data = json.load(file)

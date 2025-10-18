@@ -4,6 +4,7 @@ from typing import Optional, Set, Tuple, Dict, Iterable, List, Any
 _CONCERN_FIXES = {"pores": "pore_tightening", "pore": "pore_tightening"}
 
 def _normal_concerns (concerns: Set[str]) -> Set[str]:
+    """This standardizes and normalizes user concerns to align with expected values."""
     out = set()
     for c in concerns:
         c.strip().lower()
@@ -11,6 +12,7 @@ def _normal_concerns (concerns: Set[str]) -> Set[str]:
     return out
 
 def _match_results(meta: Dict[str, Any],) -> Tuple[int, int, int]:
+    """This extracts and returns weight scores from metadata for skin, concern, and key ingredient matches."""
     r = meta.get("match_results", {}) if isinstance(meta, dict) else {}
     r_skin = int(r.get("skin_match", 1))
     r_concern = int(r.get("concern_match", 1))
@@ -18,6 +20,7 @@ def _match_results(meta: Dict[str, Any],) -> Tuple[int, int, int]:
     return r_skin, r_concern, r_key
 
 def _overall(p: Product, profile: SkinProfile, meta: Dict[str, Any]) -> Optional[Product]:
+    """This calculates a numeric compatibility score for a product given the skin profile and metadata."""
     r_skin, r_concern, r_key = _match_results(meta)
     o = 0
     if p.matches_skin(profile.skin_type):
@@ -30,6 +33,7 @@ def _overall(p: Product, profile: SkinProfile, meta: Dict[str, Any]) -> Optional
     return o
 
 def _best_choice(category: str, profile: SkinProfile, catalog: Iterable[Product], meta: dict[str, Any]) -> Optional[Product]:
+    """This finds the best product choice for a specific category based on the user's profile and metadata."""
     users: List[Product] = [p for p in catalog if p.category.strip().lower() == category]
     allowed = [p for p in users if profile.allows(p)]
     if not allowed:
@@ -42,6 +46,7 @@ def _best_choice(category: str, profile: SkinProfile, catalog: Iterable[Product]
     return ranked [0]
 
 def weekly_facemask(profile: SkinProfile, catalog: Iterable[Product], meta: Dict[str, Any]) -> Optional[Product]:
+    """This finds the best weekly facemask product for the user based on profile compatibility."""
     masks = [p for p in catalog if p.category.strip().lower() == "facemask"]
     if not masks:
         return None
@@ -49,6 +54,7 @@ def weekly_facemask(profile: SkinProfile, catalog: Iterable[Product], meta: Dict
     return masks[0]
 
 def generate(profile: SkinProfile, catalog: Iterable[Product], meta: Dict[str, Any]) -> Dict[str, Any]:
+    """This generates a personalized AM and PM skincare routine, plus notes that is based on the user's profile and product data."""
     profile.concerns = _normal_concerns(profile.concerns)
     notes: List[str] = []
 

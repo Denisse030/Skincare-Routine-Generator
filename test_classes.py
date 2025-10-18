@@ -1,6 +1,7 @@
 from classes import Product, SkinProfile
 from rules import generate
 
+# These are the sample product instances that are being used for testing.
 person1 = Product(
     name="Tightening Toner",
     category="toner",
