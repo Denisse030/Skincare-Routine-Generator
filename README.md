@@ -42,8 +42,8 @@ Skincare-Routine-Generator/
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/Skin1004-Routine-Generator.git
-    cd Skin1004-Routine-Generator
+    git clone https://github.com/your-username/Skincare-Routine-Generator.git
+    cd Skincare-Routine-Generator
     ```
 2. **Ensure Python 3.10 or higher is installed:**
    ```bash
@@ -55,7 +55,7 @@ Skincare-Routine-Generator/
    ```
 5. **Follow the on-screen prompts:**
    * Enter your skin type (dry, oily, combination, or sensitive)
-   * Enter your skin concerns (e.g., acne, calming, hydrating)
+   * Enter your skin concerns (e.g., acne, calming, hydrating, etc...)
    * View your custom routine, warnings, and key ingredients
 
 ---
@@ -77,9 +77,10 @@ This ensures code readability and proper documentation for maintainability and g
 ## Author
 
 **Denisse Benito Gutierrez**
-Boston University MET College — MS in Software Development
-Course: CS521 — Fall 2025
-Professor Eugene Pinsky
+
+- Boston University MET College — MS in Software Development
+- Course: CS521 — Fall 2025
+- Professor Eugene Pinsky
 
 ---
 ## Future Improvements
@@ -100,8 +101,4 @@ Professor Eugene Pinsky
 * **Custom Routine Steps:**
   Allow users to choose how many **steps** they want in each routine (for example, minimal, standard, or extended) to match different lifestyles and preferences.
 
----
-## License
 
-This project is provided for academic use and demonstration purposes under the **MIT License**.
----
