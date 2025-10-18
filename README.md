@@ -96,7 +96,7 @@ This ensures code readability and proper documentation for maintainability and g
   Extend the list of recognized skin concerns (e.g., redness, texture, sensitivity, aging) to make results more accurate and inclusive.
 
 * **Increase Personalization:**
-  Use more detailed user input — such as age, climate, and routine preferences — to tailor product recommendations even further.
+  Use more detailed user input such as age, climate, and routine preferences to tailor product recommendations even further.
 
 * **Custom Routine Steps:**
   Allow users to choose how many **steps** they want in each routine (for example, minimal, standard, or extended) to match different lifestyles and preferences.
