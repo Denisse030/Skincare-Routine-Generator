@@ -80,7 +80,6 @@ This ensures code readability and proper documentation for maintainability and g
 
 - Boston University MET College — MS in Software Development
 - Course: CS521 — Fall 2025
-- Professor Eugene Pinsky
 
 ---
 ## Future Improvements
